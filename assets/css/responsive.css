@@ -1,3 +1,9 @@
+@media screen and (min-width:240px) and (max-width: 450px)  {
+  .fullscreen .wrapper-image {
+    margin-top: 150px; 
+  }
+}
+
 @media only screen and (min-width: 1025px) {
   .top-bar-section .dropdown {
     top: 70px;
