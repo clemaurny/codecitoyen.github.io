@@ -306,9 +306,12 @@ body {
   color: #fff;
   background: #AB8860; }
 
-@media screen and (min-width:240px) and (max-width : 450px)  {
-   .fullscreen .image-wrapper {
-     margin-top: 150px;
+@media screen and (min-width:240px) and (max-width: 450px)  {
+   h2 {
+    color: #f5f5dc;
+  }
+  h1 {
+    color: #f5f5dc;
   }
 }
 /* animation */
