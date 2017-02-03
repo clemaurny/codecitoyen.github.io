@@ -305,7 +305,11 @@ body {
 .button.boxed.brown:hover {
   color: #fff;
   background: #AB8860; }
-
+@media screen and(max-width : 450px) and(min-width:240px) {
+   .fullscreen .image-wrapper {
+     top: 150px;
+  }
+}
 /* animation */
 @-webkit-keyframes move {
   0% {
@@ -930,6 +934,7 @@ nav.wrapper {
 .slide-right-bg-5 {
   background: url(../images/@stock/half-5.jpg) center center no-repeat;
   background-size: cover; }
+
 
 .slide-left {
   width: 50%;
