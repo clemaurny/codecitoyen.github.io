@@ -307,7 +307,7 @@ body {
   background: #AB8860; }
 @media screen and(max-width : 450px) and(min-width:240px) {
    .fullscreen .image-wrapper {
-     top: 150px;
+     margin-top: 150px;
   }
 }
 /* animation */
